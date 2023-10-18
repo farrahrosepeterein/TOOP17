@@ -24,7 +24,7 @@ To utilize the IMU working we have to explicitly include the Pololu IMU library 
 
 `IMU imu`
 
-Working direclty with the IMU library can be a bit cumbersome.  To assist, you will want to utilize the provided TurnSensor.h header file.  Download this file and save in the `include` drectory of your PlatformIO project.  The purpose of this file is to allow you use predefined functions in your main.cpp to better control the gyro heading sensor. AFter you have created your objects, then be sure to include the TurnSensor.h file. 
+Working direclty with the IMU library can be a bit cumbersome.  To assist, you will want to utilize the provided TurnSensor.h header file.  Download this file and save in the `include` drectory of your PlatformIO project.  The purpose of this file is to allow you use predefined functions in your main.cpp to better control the gyro heading sensor. After you have created your objects, then be sure to include the TurnSensor.h file. 
 
 Here are some of the command you may frequently use:
 ```
