@@ -61,6 +61,21 @@ void loop(){
 
 ```
 ## Exercise
+The goal of this exercise is to properly display heading and test the different speeds of your motors.
+
+1. Create a new Platform IO project:
+- Use the starter code in this repository to get a head start.
+- Ensure your `platform.ini` file has the proper library dependancies configured.
+- Place the `TurnSensor.h` header file in this repository in the `include` directory of your Platform IO project.
+2. In `setup()`:
+- Initialize your display.
+- Initilaize your turn sensor.
+- Display a warning message `DO NOT MOVE ROBOT` during the gyro initilization.
+3. In `loop()`:
+- Update your turn sensor heading and display the heading on the first line of your display
+- Drive your robot forward at a slow speed for 1 second if button A is pressed.
+- Drive your robot forward at a medium speed for 1 second if button B is pressed.
+- Drive your robot forward at a fast speed for 1 second if button C is pressed.
 
 
 
