@@ -12,10 +12,12 @@ Your Pololu robot comes with two micro motors. These can be made to turn clockwi
 
 Here are some of the commands you may frequently use:
 ```
-void flipLeftMotor(bool flip)  //Flips the direction of the left motor
-void flipRightMotor(bool flip)  //Flips the direction of the right motor
-void setLeftSpeed(int16_t speed)  //Sets the speed for the the left motor
-void setRightSpeed(int16_t speed)  //Sets the speed of the right motor
+void calibrate()  //calibrated the bump sensors
+uint8_t read()  //Reads both sensors
+void leftChanged()  //Indicates a state change of left bump sensor since last read
+void rightChanged()  //Indicates a state change of right bump sensor since last read
+void leftisPressed() //Indacates left bump sensor is pressed
+void rightisPressed() //Indacates right bump sensor is pressed
 ```
 
 ## Working with the IMU (Inertial Measurement Unit)
