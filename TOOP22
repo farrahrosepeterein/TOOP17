@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+class grades {
+ //private variables   
+double grade1;
+double grade2;
+double grade3;
+//public method that allows the three doubles to be set   
+public:
+void set_values(grades);
+};
+void grades::set_values (grade1, grade2, grade3){
+    grade1=1;
+    grade2=2;
+    grade3=3;
+
+}
+double calculateAverage() {
+    return (grade1 + grade2 + grade3)/3.0;
+};
+
+int main(){
+    grades cadet1, cadet2;
+    cadet1.set_values(98.2, 47.8,89.2);
+    cadet2.set_values(93.0, 78.2, 87.4);
+cout << "cadet1's grade average is: " << cadet1.calculateAverage() << endl;
+cout << "cadet2's grade average is: " << cadet2.calculateAVerage() << endl;
+return 0;
+}
